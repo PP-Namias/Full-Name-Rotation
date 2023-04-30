@@ -27,15 +27,11 @@
 ## <img src="https://cdn.discordapp.com/emojis/859424401186095114.png" width="20px" height="20px"> 》Description
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PP-Namias&repo=Full-Name-Rotation&theme=tokyonight&show_owner=true&hide_border=true)](https://github.com/PP-Namias/Full-Name-Rotation)
 
-## <img src="https://cdn.discordapp.com/emojis/852881450667081728.gif" width="20px" height="20px"> 》Feature
-The Full Name Rotation login page provides the following features:
-
-
 ## <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="25px" height="25px"> 》Screenshots
 <br />
 <p align="center">
   <a href="https://github.com/PP-Namias/Full-Name-Rotation">
-    <img src="./assets/UCC_Student_Portal.png">
+    <img src="./img/screenshot.jpeg">
   </a>
 </p>
 
