@@ -169,7 +169,6 @@ body {
     font-size: 2rem;
     margin-left: 70px;
     margin-top: 50px;
-    margin-bottom: 39px;
   }
   .main-container .hero-container .midterm-text p {
     width: 350px;
@@ -225,6 +224,10 @@ body {
   font-size: 2rem;
   margin-left: 70px;
   margin-bottom: 25px;
+  font-size: 2rem;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 39px;
 
   text-decoration: none;
 
@@ -311,5 +314,33 @@ a {
 }
 
 .fancy:hover > .outer:nth-child(10) {
+  transform: translate(0%, 15%) rotate(-6deg);
+}
+
+.fancy:hover > .outer:nth-child(11) {
+  transform: translate(0%, 8%) rotate(-8deg);
+}
+
+.fancy:hover > .outer:nth-child(12) {
+  transform: translate(0%, -20%) rotate(5deg);
+}
+
+.fancy:hover > .outer:nth-child(13) {
+  transform: translate(-80%, 60%) rotate(8deg);
+}
+
+.fancy:hover > .outer:nth-child(14) {
+  transform: translate(0%, -40%) rotate(-5deg);
+}
+
+.fancy:hover > .outer:nth-child(15) {
+  transform: translate(0%, 8%) rotate(-8deg);
+}
+
+.fancy:hover > .outer:nth-child(16) {
+  transform: translate(0%, -50%) rotate(8deg);
+}
+
+.fancy:hover > .outer:nth-child(17) {
   transform: translate(0%, 15%) rotate(-6deg);
 }
