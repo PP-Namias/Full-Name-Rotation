@@ -1,0 +1,332 @@
+:root {  
+  --green: rgb(42, 252, 152);
+  --blue: rgb(41, 121, 255);
+}
+
+@keyframes float {
+  from, to {
+    transform: translateY(-0%);
+  }
+  
+  50% {    
+    transform: translateY(-3%);
+  }
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 1000% center;
+  }
+  
+  to {
+    background-position: 0% center;
+  }
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.margin-bottom {
+  margin-bottom: 34px;
+}
+
+body {
+  background-color: #090b1a;
+}
+
+.main-container {
+  max-width: 90%;
+  height: 785px;
+  width: 330px;
+  text-align: center;
+  background-color: #1b1938;
+  margin: 85px 50% 85px 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.main-container .my-image {
+  height: 247px;
+  width: 324px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.6)), to(rgba(170, 92, 219, 0.6))), url(../img/namias.jpg);
+  background: linear-gradient(rgba(170, 92, 219, 0.6), rgba(170, 92, 219, 0.6)), url(../img/namias.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 43px;
+}
+
+.main-container h1 {
+  width: 260px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.main-container h1 span {
+  color: #aa5cdb;
+}
+
+.main-container p {
+  width: 252px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  margin-bottom: 48px;
+  line-height: 1.4rem;
+}
+
+.main-container .list {
+  list-style: none;
+  width: 86px;
+  margin: auto;
+}
+
+.main-container .list h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.main-container .list h4 {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.attribution {
+  color: white;
+  position: absolute;
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.attribution a {
+  color: white;
+}
+
+@media screen and (min-width: 900px) {
+  .main-container {
+    height: 449px;
+    width: 1108px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .main-container .my-image {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.6)), to(rgba(170, 92, 219, 0.6))), url(../img/namias.jpg);
+    background: linear-gradient(rgba(170, 92, 219, 0.6), rgba(170, 92, 219, 0.6)), url(../img/namias.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 449px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+  }
+  .main-container .hero-container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .main-container .hero-container .midterm-text h1 {
+    width: 380px;
+    font-size: 2rem;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 39px;
+  }
+  .main-container .hero-container .midterm-text p {
+    width: 350px;
+    font-size: 0.875rem;
+    margin-left: 70px;
+    margin-bottom: 50px;
+  }  
+  .main-container .hero-container .list {
+    list-style: none;
+    width: 354px;
+    margin-left: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 1.5;
+  }
+  .main-container .hero-container .list h3 {
+    font-size: 1.3125rem;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+  .main-container .hero-container .list h4 {
+    font-size: 0.6875rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .attribution {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .attribution a {
+    color: white;
+  }
+}
+
+
+/* Keyframes */
+
+
+
+.text-rotate {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: white;
+  width: 380px;
+  font-size: 2rem;
+  margin-left: 70px;
+  margin-bottom: 25px;
+
+  text-decoration: none;
+
+  animation: 3s infinite alternate rotation;
+
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.word {
+  color: white;
+  font-size: clamp(2rem, 8vw, 10rem);
+  font-family: "Rubik", sans-serif;
+  margin: 0rem;
+  text-transform: uppercase;
+  transition: opacity 250ms ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
+  opacity: 0.2;
+}
+
+.fancy span {
+  display: inline-block;
+}
+
+.fancy > .outer {
+  transition: transform 350ms ease;
+}
+
+.fancy:hover > .outer {
+  transition-duration: 800ms;
+}
+
+.fancy:hover > .outer > .inner {
+  animation: float 5s ease infinite;
+}
+
+.fancy:hover > .outer > .inner > .letter {
+  background: linear-gradient(
+    to right,
+    var(--blue),
+    var(--green),
+    var(--blue)
+  );
+  background-size: 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: background-pan 150s linear infinite;
+}
+
+.fancy:hover > .outer:nth-child(1) {
+  transform: translate(-80%, 60%) rotate(8deg);
+}
+
+.fancy:hover > .outer:nth-child(2) {
+  transform: translate(-40%, 20%) rotate(4deg);
+}
+
+.fancy:hover > .outer:nth-child(3) {
+  transform: translate(-10%, 60%) rotate(-6deg);
+}
+
+.fancy:hover > .outer:nth-child(4) {
+  transform: translate(0%, 8%) rotate(-8deg);
+}
+
+.fancy:hover > .outer:nth-child(5) {
+  transform: translate(0%, -20%) rotate(5deg);
+}
+
+.fancy:hover > .outer:nth-child(6) {
+  transform: translate(0%, 20%) rotate(-3deg);
+}
+
+.fancy:hover > .outer:nth-child(7) {
+  transform: translate(0%, -40%) rotate(-5deg);
+}
+
+.fancy:hover > .outer:nth-child(8) {
+  transform: translate(0%, 15%) rotate(10deg);
+}
+
+.fancy:hover > .outer:nth-child(9) {
+  transform: translate(0%, -50%) rotate(8deg);
+}
+
+.fancy:hover > .outer:nth-child(10) {
+  transform: translate(0%, 15%) rotate(-6deg);
+}
+
+.fancy:hover > .outer:nth-child(11) {
+  transform: translate(50%, -10%) rotate(-3deg);
+}
+
+.fancy:hover > .outer:nth-child(12) {
+  transform: translate(120%, -30%) rotate(-10deg);
+}
