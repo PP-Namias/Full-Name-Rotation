@@ -232,17 +232,8 @@ body {
 
 }
 
-.line {
-  display: flex;
-  justify-content: space-between;
-}
-
-.word {
-  color: white;
-  font-size: clamp(2rem, 8vw, 10rem);
-  font-family: "Rubik", sans-serif;
+.name {
   margin: 0rem;
-  text-transform: uppercase;
   transition: opacity 250ms ease;
 }
 
@@ -250,7 +241,7 @@ a {
   text-decoration: none;
 }
 
-#text:has(.fancy:hover) .word:not(.fancy:hover) {
+.header .hero-section .hero-container h1:has(.fancy:hover) .word:not(.fancy:hover) {
   opacity: 0.2;
 }
 
@@ -273,9 +264,9 @@ a {
 .fancy:hover > .outer > .inner > .letter {
   background: linear-gradient(
     to right,
-    var(--blue),
-    var(--green),
-    var(--blue)
+    rgb(84, 72, 250) 0%,
+    rgb(199, 72, 250) 0%,
+    rgb(84, 72, 250) 0%
   );
   background-size: 1000%;
   -webkit-background-clip: text;
@@ -321,12 +312,4 @@ a {
 
 .fancy:hover > .outer:nth-child(10) {
   transform: translate(0%, 15%) rotate(-6deg);
-}
-
-.fancy:hover > .outer:nth-child(11) {
-  transform: translate(50%, -10%) rotate(-3deg);
-}
-
-.fancy:hover > .outer:nth-child(12) {
-  transform: translate(120%, -30%) rotate(-10deg);
 }
