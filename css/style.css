@@ -38,6 +38,7 @@
 
 body {
   background-color: #090b1a;
+  overflow: hidden;
 }
 
 .main-container {
@@ -275,6 +276,187 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: background-pan 150s linear infinite;
+}
+
+
+.fancy > .outer:nth-child(1) {
+  animation: J 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(2) {
+  animation: H1 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(3) {
+  animation: O 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(4) {
+  animation: N1 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(5) {
+  animation: Space1 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(6) {
+  animation: K 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(7) {
+  animation: E1 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(8) {
+  animation: N2 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(9) {
+  animation: E2 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(10) {
+  animation: T 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(11) {
+  animation: H2 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(12) {
+  animation: Space2 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(13) {
+  animation: N3 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(14) {
+  animation: A1 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(15) {
+  animation: M 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(16) {
+  animation: I 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(17) {
+  animation: A2 5s normal ease-in-out;
+}
+
+.fancy > .outer:nth-child(18) {
+  animation: S 5s normal ease-in-out;
+}
+
+@keyframes J {
+  0%{
+    transform: translate(3040%, -800%) rotate(180deg)
+  }
+}
+
+@keyframes H1 {
+  0%{
+    transform: translate(-4500%, 1000%) rotate(180deg)
+  }
+}
+
+@keyframes O {
+  0%{
+    transform: translate(4500%, 550%) rotate(180deg)
+  }
+}
+
+@keyframes N1 {
+  0%{
+    transform: translate(4000%, -600%) rotate(180deg)
+  }
+}
+
+@keyframes Space1 {
+  0%{
+    transform: translate(5000%, -1500%) rotate(180deg)
+  }
+}
+
+@keyframes K {
+  0%{
+    transform: translate(3500%, -100%) rotate(180deg)
+  }
+}
+
+@keyframes E1 {
+  0%{
+    transform: translate(2500%, -2000%) rotate(180deg)
+  }
+}
+
+@keyframes N2 {
+  0%{
+    transform: translate(-1000%, 2600%) rotate(180deg)
+  }
+}
+
+@keyframes E2 {
+  0%{
+    transform: translate(-5500%, -500%) rotate(180deg)
+  }
+}
+
+@keyframes T {
+  0%{
+    transform: translate(-7200%, 160%) rotate(180deg)
+  }
+}
+
+@keyframes H2 {
+  0%{
+    transform: translate(-4300%, 6400%) rotate(180deg)
+  }
+}
+
+@keyframes Space2 {
+  0%{
+    transform: translate(-7400%, 500%) rotate(180deg)
+  }
+}
+
+@keyframes N3 {
+  0%{
+    transform: translate(6500%, 4100%) rotate(180deg)
+  }
+}
+
+@keyframes A1 {
+  0%{
+    transform: translate(3500%, 3600%) rotate(180deg)
+  }
+}
+
+@keyframes M {
+  0%{
+    transform: translate(5000%, 1600%) rotate(180deg)
+  }
+}
+
+@keyframes I {
+  0%{
+    transform: translate(4000%, 6100%) rotate(180deg)
+  }
+}
+
+@keyframes A2 {
+  0%{
+    transform: translate(-5500%, 6040%) rotate(180deg)
+  }
+}
+
+@keyframes S {
+  0%{
+    transform: translate(-5200%, 7107%) rotate(180deg)
+  }
 }
 
 .fancy:hover > .outer:nth-child(1) {
